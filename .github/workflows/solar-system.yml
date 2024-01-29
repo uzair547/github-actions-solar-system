@@ -35,7 +35,6 @@
     code-coverage:
       name: code-coverage
       runs-on: ubuntu-latest
-      id: code-coverage
       steps:
         - name: checkout repo
           uses: actions/checkout@v4
